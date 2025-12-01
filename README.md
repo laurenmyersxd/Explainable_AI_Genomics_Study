@@ -60,10 +60,11 @@ Combining the feature engineered fields with our initial CNAs, SVs, and VCFs we 
 
 OncoGAN came with its own classifier for the 8 tumor types, however it was a Deep Nueral Network (DNN) ran through Docker. It was not interpretible, and a black box for extracting cancerous patterns. So, we created our own with differing feature inputs and models. We receieved a really high test and train score, with our highest on Logistic Regression. The rest of this paper is interpreting the learned weights from our best model, logreg_multi.  
 
-Features        Model                Accuracy Macro-F1
-SNV-only        LogisticRegression   0.98750  0.987469
-SNV + CNA + SV  LogisticRegression   0.99375  0.993746
-SNV + CNA + SV  RandomForest         0.98125  0.981246
+| Features       | Model               | Accuracy | Macro-F1 |
+|----------------|---------------------|----------|----------|
+| SNV-only       | LogisticRegression  | 0.98750  | 0.987469 |
+| SNV + CNA + SV | LogisticRegression  | 0.99375  | 0.993746 |
+| SNV + CNA + SV | RandomForest        | 0.98125  | 0.981246 |
 
 ### /data/explainable_ai
 
