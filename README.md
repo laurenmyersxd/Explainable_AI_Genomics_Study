@@ -4,7 +4,7 @@
 
 # Background
 
-For decades, cancer has plagued the world with its mystique. The law of large numbers tells us that the more we observe something, the more we should understand its distribution and underlying patterns. But, one question remains: if we have lost so many lives to cancer, how come we have not found a robust cure yet?
+For decades, cancer has plagued the world with its mystique. The law of large numbers tells us that the more we observe something, the more we should understand its distribution and underlying patterns. But, if we have lost so many lives to cancer and have hundreds of thousands of cancerous patient records, how come we don't seem to know that much about it?
 
 Researchers are eager to explore the patterns of cancer genomes, but many are not able to dig into the data and hypothesize without having a career in a medical company working for a pharmaceutical company or hospital. HIPAA has any cancerous genome held on tight, creating a data science bottleneck of the possibilities that public cancer genomes can offer.
 
