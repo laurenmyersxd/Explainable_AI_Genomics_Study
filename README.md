@@ -2,9 +2,11 @@
 
 ![Chromosomes](chromosomes.jpg)
 
+# Background
+
 For decades, cancer has plagued the world with its mystique. The law of large numbers tells us that the more we observe something, the more we should understand its distribution and underlying patterns. But, one question remains: if we have lost so many lives to cancer, how come we have not found a robust cure yet?
 
-Researchers are eager to explore the patterns of cancer genomes, but many are not able to dig into the data and hypothesize without having a career in a medical company working for a pharmasutical company or hospital. HIPAA has any cancerous genome held on tight, creating a data science bottleneck of the possibilities that public cancer genomes can offer.
+Researchers are eager to explore the patterns of cancer genomes, but many are not able to dig into the data and hypothesize without having a career in a medical company working for a pharmaceutical company or hospital. HIPAA has any cancerous genome held on tight, creating a data science bottleneck of the possibilities that public cancer genomes can offer.
 
 While public cancer genomes are not ethical, ![OncoGAN](https://github.com/LincolnSteinLab/oncoGAN) has come up with a solution. The solution is creating synthetic tumor genome cancer variants, which represent the deidentified underlying patterns learned from 2,658 whole genome sequences (WGS) from the The Pancancer Analysis of Whole Genomes (PCAWG) study. 
 
