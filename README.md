@@ -12,7 +12,7 @@ While public cancer genomes are not ethical, ![OncoGAN](https://github.com/Linco
 
 These synthetic genomes express the patterns of these 2,658 cancerous genomes that it is trained on. Now, our research question is:
 
-# To what extent do the cancer driver variants learned by OncoGAN from 2,658 PCAWG whole genomes recapitulate known driver mutations across 8 cancer types reported in the medical literature?
+### To what extent do the synthetic genomes represent known mutation drivers across cancer types reported in medical literature?
 
 This is the question that this Repository, Explainable_AI_Genomics_Study, is aiming to answer. Let me walk you through each script. 
 
