@@ -1,0 +1,8 @@
+chrom1	start1	end1	chrom2	start2	end2	strand1	strand2	svclass	id	allele	donor_id	tumor
+2	236703361	236703362	2	243199373	243199374	-	+	DUP	cna2	major	sim1	CNS-PiloAstro
+2	236703361	236703362	2	243199373	243199374	+	-	DEL	cna2	minor	sim1	CNS-PiloAstro
+6	99224239	99224240	6	171089201	171089202	-	+	DUP	cna7	major	sim1	CNS-PiloAstro
+6	99224239	99224240	6	171089201	171089202	-	+	DUP	cna7	minor	sim1	CNS-PiloAstro
+6	171089202	171089203	6	171115067	171115068	-	+	DUP	cna8	major	sim1	CNS-PiloAstro
+11	35239493	35239494	11	48275680	48275681	-	+	DUP	cna14	major	sim1	CNS-PiloAstro
+12	1	2	12	133851895	133851896	-	+	DUP	cna16	major	sim1	CNS-PiloAstro

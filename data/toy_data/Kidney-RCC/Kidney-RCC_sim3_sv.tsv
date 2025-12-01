@@ -1,0 +1,10 @@
+chrom1	start1	end1	chrom2	start2	end2	strand1	strand2	svclass	id	allele	donor_id	tumor
+3	197830785	197830786	3	198022430	198022431	+	-	DEL	cna3	minor	sim3	Kidney-RCC
+6	1	2	6	45122189	45122190	-	+	DUP	cna6	major	sim3	Kidney-RCC
+6	1	2	6	45122189	45122190	+	-	DEL	cna6	minor	sim3	Kidney-RCC
+6	45122190	45122191	6	130423476	130423477	-	+	DUP	cna7	major	sim3	Kidney-RCC
+7	109514973	109514974	7	109535245	109535246	-	-	t2tINV	cna9	major	sim3	Kidney-RCC
+13	1	2	13	13546577	13546578	+	-	DEL	cna15	minor	sim3	Kidney-RCC
+13	27783286	27783287	13	113257667	113257668	-	+	DUP	cna17	major	sim3	Kidney-RCC
+13	27783286	27783287	13	113257667	113257668	+	-	DEL	cna17	minor	sim3	Kidney-RCC
+18	2259126	78077248	22	50747392	51304566	-	-	TRA	cna23,cna27	minor,minor	sim3	Kidney-RCC

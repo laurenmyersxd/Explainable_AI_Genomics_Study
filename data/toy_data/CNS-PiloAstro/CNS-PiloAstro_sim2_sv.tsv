@@ -1,0 +1,6 @@
+chrom1	start1	end1	chrom2	start2	end2	strand1	strand2	svclass	id	allele	donor_id	tumor
+7	9930968	9930969	7	159138663	159138664	-	+	DUP	cna7	major	sim2	CNS-PiloAstro
+7	9930968	9930969	7	159138663	159138664	-	+	DUP	cna7	minor	sim2	CNS-PiloAstro
+10	81914314	81914315	10	135534747	135534748	-	+	DUP	cna11	major	sim2	CNS-PiloAstro
+10	81914314	81914315	10	135534747	135534748	-	+	DUP	cna11	minor	sim2	CNS-PiloAstro
+12	1	2	12	133851895	133851896	-	+	DUP	cna13	major	sim2	CNS-PiloAstro
