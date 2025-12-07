@@ -1,6 +1,0 @@
-chrom1	start1	end1	chrom2	start2	end2	strand1	strand2	svclass	id	allele	donor_id	tumor
-10	1	2	10	61316213	61316214	+	-	DEL	cna9	minor	sim2	Lymph-CLL
-11	1	2	11	135006516	135006517	+	-	DEL	cna11	minor	sim2	Lymph-CLL
-11	27958410	27958411	11	39836260	39836261	-	-	t2tINV	cna11	major	sim2	Lymph-CLL
-11	87830810	87830811	11	109231635	109231636	+	+	h2hINV	cna11	major	sim2	Lymph-CLL
-12	1	2	12	133851895	133851896	+	-	DEL	cna12	minor	sim2	Lymph-CLL
