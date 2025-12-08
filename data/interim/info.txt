@@ -1,0 +1,8 @@
+File results of /data/input files through load_vcf
+
+Correct loading results in:
+
+/data/interim:
+    - all_cancers_cna_df.csv
+    - all_cancers_tsv_df.csv
+    - all_cancers_vcf_df.csv

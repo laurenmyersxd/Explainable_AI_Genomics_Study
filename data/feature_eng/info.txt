@@ -1,0 +1,14 @@
+Results from feature_engineering.ipynb
+
+Folder structure:
+
+data/feature_eng
+    *These dataframes are the same as the ones in the interim folder, but with sample-wise fields added
+    - all_cancers_cna_df.csv 
+    - all_cancers_tsv_df.csv
+    - all_cancers_vcf_df.csv
+
+    *These dataframes contain broad descriptions of the statistics and engineered features across dataframes.
+    - cna_features.csv
+    - snv_features.csv 
+    - sv_feature.csv

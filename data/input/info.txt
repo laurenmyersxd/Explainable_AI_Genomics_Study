@@ -1,0 +1,29 @@
+Unzip the following folders here to run load_vcf.ipynb:
+
+OncoGAN_synthetic_CNA_SV
+OncoGAN_synthetic_VCFs
+
+Which results in the following structure:
+
+- input
+    - OncoGAN_synthetic_CNA_SV
+        - Breast-AdenoCa
+            - Breast-AdenoCa_sim1_cna.tsv
+            - Breast-AdenoCa_sim1_sv.tsv
+            - ...
+            - Breast-AdenoCa_sim100_cna.tsv
+            - Breast-AdenoCa_sim100_sv.tsv
+        - CNS-PiloAstro
+        - ...
+        - Prost-AdenoCA
+
+    - OncoGAN_synthetic_VCFs
+        - Breast-AdenoCa
+            - Breast-AdenoCa_sim1.vcf
+            - Breast-AdenoCa_sim2.vcf
+            - ...
+            - Breast-AdenoCa_sim100.vcf
+        - CNS-PiloAstro
+        - ...
+        - Prost-AdenoCA
+
