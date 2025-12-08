@@ -1,5 +1,22 @@
 # Explainable_AI_Genomics_Study
 
+# Run the code
+
+To run the code, unzip the following in the inpur folder:
+OncoGAN_synthetic_CNA_SV.zip
+OncoGAN_synthetic_VCFs.zip
+
+Next, run the scripts in this order:
+1. load.ipynb
+2. eda.ipynb*
+2. feature_engineering.ipynb
+3. modeling.ipynb
+4. cancer_driver_mapping.ipynb
+
+* eda is optional for the pipeline, but the graphs are fun to interpret!
+If you get lost at any point, refer to the info.txt in the following folders: input/interim/feature_eng
+The info.txt's are useful since these datafiles are too large to put into git, so this way you can perform a sanity check to see if the files loaded from each step look correct with the general file architecture.
+
 ![Chromosomes](chromosomes.jpg)
 
 # Background
@@ -18,7 +35,7 @@ This is the question that this Repository, Explainable_AI_Genomics_Study, is aim
 
 ## load_vcf
 
-This notebook loads in the CNAs, VCFs and SVs of all the synthetic genomes. These genomes are created from OncoGAN, where we have 800 simulated genomes. The goal of this notebook is to parse and save 3 dataframes containing all the data to folder /data/inputs. The original dataframes are not uploaded to git as the files are too large, however there are toy files loaded which are subsamples of the true data (first 3 simulated genomes) that we used that you can use to run the code.
+This notebook loads in the CNAs, VCFs and SVs of all the synthetic genomes. These genomes are created from OncoGAN, where we have 800 simulated genomes. The goal of this notebook is to parse and save 3 dataframes containing all the data to folder /data/inputs. See 'Running the code' section for more details on this.
 
 ## eda
 
@@ -71,6 +88,10 @@ OncoGAN came with its own classifier for the 8 tumor types, however it was a Dee
 ### /data/explainable_ai
 
 With these CSV files produced from modeling, we can now do our independent research to see if these highly weighted variables are recognized in the medical field as being drivers for that specific cancer. If we find a result from a peer-reviewed journal, we will put a '1' in that category. If not, we will put a 0. 
+
+# Running the code
+
+The original dataframes are not uploaded to git as the files are too large, however there are toy files loaded which are subsamples of the true data (first 3 simulated genomes) that we used that you can use to run the code. Please note that running the code with these files will not reproduce the final results, however they can 'run' the code. If you want
 
 # Conclusion:
 
