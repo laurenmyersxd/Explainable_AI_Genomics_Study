@@ -99,6 +99,8 @@ With the top 10 weighted features found in modeling, I went through 90+ medical 
 * If it mentions that "Factor X is proximitally related / has been identified in a small subset of cancers / has medical evidence to increase cancer risk but is not proven to affect cancer Y" then this is a proxy factor with a weight of 0.5
 * If there are only a few occurances of this factor in the paper, or I could not find proof of the factor significantly contributing to cancer risk, then this is not a factor, and the weight is 0.
 
+Results are documented in 10_Highest_Drivers_Backed_by_SME.pdf
+
 # Conclusion:
 
 
