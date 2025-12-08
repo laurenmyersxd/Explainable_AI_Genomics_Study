@@ -1,5 +1,7 @@
 # Explainable_AI_Genomics_Study
 
+![Chromosomes](chromosomes.jpg)
+
 # Run the code
 
 To run the code, unzip the following in the input folder:
@@ -14,10 +16,9 @@ Next, run the scripts in this order:
 4. cancer_driver_mapping.ipynb
 
 *eda is optional for the pipeline, but the graphs are fun to interpret!
-If you get lost at any point, refer to the info.txt in the following folders: input/interim/feature_eng
-* The info.txt's are useful since these datafiles are too large to put into git, so this way you can perform a sanity check to see if the files loaded from each step look correct with the general file architecture.
 
-![Chromosomes](chromosomes.jpg)
+*If you get lost at any point, refer to the info.txt in the following folders: input/interim/feature_eng
+The info.txt's are useful since these datafiles are too large to put into git, so this way you can perform a sanity check to see if the files loaded from each step look correct with the general file architecture.
 
 # Background
 
