@@ -89,13 +89,18 @@ OncoGAN came with its own classifier for the 8 tumor types, however it was a Dee
 
 ### /data/explainable_ai
 
-With these CSV files produced from modeling, we can now do our independent research to see if these highly weighted variables are recognized in the medical field as being drivers for that specific cancer. If we find a result from a peer-reviewed journal, we will put a '1' in that category. If not, we will put a 0. 
+With these CSV files produced from modeling (top 10 highest weighted features per cancer from model with 99% accuracy), we can now do our independent research to see if these highly weighted variables are recognized in the medical field as being drivers for that specific cancer.
 
-# Running the code
+## cancer_driver_mapping.ipynb 
 
-The original dataframes are not uploaded to git as the files are too large, however there are toy files loaded which are subsamples of the true data (first 3 simulated genomes) that we used that you can use to run the code. Please note that running the code with these files will not reproduce the final results, however they can 'run' the code. If you want
+With the top 10 weighted features found in modeling, I went through 90+ medical peer-reviewed journals (PubMed, Nature, etc.) and research to if our learned drivers are recognized factors for that kind of cancer. 
+
+* If it was explicity stated that "Factor X contributes to Y cancer" than I would assign this factor a weight of 1. 
+* If it mentions that "Factor X is proximitally related / has been identified in a small subset of cancers / has medical evidence to increase cancer risk but is not proven to affect cancer Y" then this is a proxy factor with a weight of 0.5
+* If there are only a few occurances of this factor in the paper, or I could not find proof of the factor significantly contributing to cancer risk, then this is not a factor, and the weight is 0.
 
 # Conclusion:
+
 
 
 
