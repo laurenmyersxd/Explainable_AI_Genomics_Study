@@ -4,7 +4,11 @@
 
 # Run the code
 
-To run the code, unzip the following in the input folder:
+Run this line to create your environment for all the necessary packages
+
+pip install -r requirements.txt
+
+To run the process, unzip the following in the input folder:
 OncoGAN_synthetic_CNA_SV.zip
 OncoGAN_synthetic_VCFs.zip
 
