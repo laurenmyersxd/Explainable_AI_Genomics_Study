@@ -107,6 +107,8 @@ Results are documented in 10_Highest_Drivers_Backed_by_SME.pdf
 
 # Conclusion:
 
+Our best model trained had a test accuracy of 99.37%. The results are high, but there we ensured that no data leakage occured; this accuracy is high becuase it learned indicators for each cancer type.
 
+By extracting the top 10 cancer drivers (highest weighted features from Logisitc regression and multi-omic features) we determined that 85% of these features had biological evidence for being cancer drivers.
 
-
+This 85% does not mean that 15% of these learned features are synthetic genome artifacts, but instead that these features may be proximity/largely unresarched fields that could be of interest to the medical community. 
