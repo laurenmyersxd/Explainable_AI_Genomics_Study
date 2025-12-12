@@ -1,5 +1,8 @@
 Unzip the following folders here to run load_vcf.ipynb:
 
+Note: these folders live in the Archive folder (Zipped), but the two folders below MUST be in this directory (input) and not in subdirectory ../input/Archive/...
+* See Canvas submission for these folders zipped individually
+
 OncoGAN_synthetic_CNA_SV
 OncoGAN_synthetic_VCFs
 
